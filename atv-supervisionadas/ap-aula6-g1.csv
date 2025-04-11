@@ -1,0 +1,47 @@
+Cenário,Código,Duplicação,Matrícula,Nome,Sugestão,Prioridade
+6,RF01,,302201679,ABRAAO SANTIAGO MOREIRA,O sistema deve permitir chat e anotações médicas: Médico pode fazer anotações e enviar mensagens ao paciente.,ALTA
+6,RF02,,302201680,ALINE AYUMI SOMA HAMANO,O sistema deve permitir que o paciente avalie o médico que o atendeu.,MÉDIA
+6,RF03,,302201681,ALINE LIMA MARTINS COELHO,"O paciente deve ter acesso a um repositório, dentro da plataforma, com seus laudos, prescrições, exames e orientações recebidas nas consultas.",ALTA
+6,RF04,,302206141,ALINE NUNES DOS SANTOS,"O sistema deve garantir que, durante as teleconsultas, o médico e o paciente consigam se comunicar de maneira clara e sem interrupções.",ALTA
+6,RF05,duplicado com RF29,302306332,ÁLVARO VELOSO LISBOA,"A solução deve permitir acesso simplificado para pacientes com limitações (física, mental, idade avançada).",MÉDIA
+6,RF06,"duplicado com RF13, RF22, RF25, RF32, RF36",302201683,ARTHUR NUCADA FELIX DE SOUZA,O sistema deve mimetizar o ambiente de um consultório real,MÉDIA
+6,RF07,,302305528,CLAUDIO CRISTIANO LOUZA FILHO,"O sistema deve permitir que o paciente avalie a experiência da consulta em VR, sugerindo melhorias na interface, comunicação ou ambientação virtual.",BAIXA
+6,RF08,,302201689,FELIPE MOREIRA SILVA,O sistema deve permitir que o usuário paciente consiga ter uma experiência imersiva independante de sua mobilidade.,BAIXA
+6,RF09,,302201691,GABRIEL BORGES GARCIA,O Sistema deve ser capaz de gerar um autenticador para as receitas virtuais.,ALTA
+6,RF10,duplicado com RF11,202206970,GABRIEL FERREIRA SILVA,Permitir a visualização de exames como raio x e ultrasom no ambiente em 3d no ambiente,MÉDIA
+6,RF11,duplicado com RF10,302108000,GABRIEL MILHOMEM CUNHA,O sistema deve permitir que o médico visualize imagens e vídeos de exames médicos em 3D durante a consulta.,ALTA
+6,RF12,,202004754,GIOVANNA LYSSA RODRIGUES BORGES TELES,"O sistema deve permitir que o médico faça anotações em tempo real durante a consulta, visíveis para o paciente no ambiente virtual",ALTA
+6,RF13,"duplicado com RF06, RF22, RF25, RF32, RF36",302201692,GUILHERME GONÇALVES DUTRA DE MENDONÇA,"O usuário deve ser capaz de agendar e participar de consultas médicas remotas utilizando realidade virtual, interagindo com o profissional de saúde em um ambiente imersivo.",ALTA
+6,RF14,,202107016,GUSTAVO NEVES PIEDADE LOUZADA,O sistema deve utilizar modelos 3D inseridos dentro da Realidade Virtual para facilitar a explicação de condições de saúde específicas aos pacientes,ALTA
+6,RF15,,201802766,HALLEFFY HENRYK REIS SANTOS,"O sistema deve cadastrar um usuário, esse podendo ser médico ou paciente.",ALTA
+6,RF16,,302201693,HUGO MORENO I VEIGA JARDIM,O sistema deve permitir consultas imersivas com visualização 3D de dados médicos e sintomas. Deve oferecer integração com dispositivos médicos domésticos e suporte para sessões terapêuticas virtuais.,ALTA
+6,RF17,,302009569,JANNDERSON OLIVEIRA DA SILVA,"O sistema deve priorizar pacientes urgentes de acordo com a descrição que o usuário fara por aúdio, que deve ser transcrito e traduzido pelo sistema, o paciente ou uma pessoa próxima receberá orientações e esse usuário terá prioridade na fila, como por exemplo num acidente de trânsito com vitima grave com objeto transfixado.",ALTA
+6,RF18,,201910884,JAIR SOUZA MEIRA RODRIGUES,O sistema deve permitir a conexão com outros dispositivos como câmeras ou glicosimetros por exemplo.,MÉDIA
+6,RF19,,302201694,JHEISSYANE KELLY DA SILVA SOUZA,O sistema deve se integrar a dispositivos que monitorem os sinais vitais em tempo real,MÉDIA
+6,RF20,,302201695,JOÃO GABRIEL CAVALCANTE FRANÇA,O sistema deve permitir o login utilizando reconhecimento facial.,MÉDIA
+6,RF21,,302201697,JOÃO VITOR ALVES DOS REIS,"As teleconsultas devem ser gravadas para auditorias, em casos de suspeitas de negligência médica.",ALTA
+6,RF22,,201910887,JOÃO VITOR DA COSTA ALMEIDA,O sistema deve permitir que pacientes realizem consultas médicas remotas usando dispositivos de realidade virtual,ALTA
+6,RF23,,302201699,JOSÉ ALVES DE OLIVEIRA NETO,O sistema deve garantir que todas as informações médicas sejam armazenadas com segurança e possam ser compartilhadas com o médico autorizado dentro do ambiente virtual.,ALTA
+6,RF24,,302004761,JOSÉ CARLOS LEE,"O sistema deve permitir que o médico carregue modelos anatômicos 3D genéricos ou específicos do paciente (baseados em exames como tomografia/ressonância) no ambiente VR e manipule-os (girar, ampliar, destacar partes) durante a consulta para explicar condições ou procedimentos ao paciente de forma visual e interativa.",MÉDIA
+6,RF25,,302300194,JOSEPPE PEDRO CUNHA FELLINI,O sistema deve permitir consultas médicas remotas utilizando realidade virtual para uma experiência mais imersiva e interativa.,ALTA
+6,RF26,,302201700,LEONARDO MOREIRA DE ARAÚJO,O sistema deve permitir que o cancelamento de uma consulta seja feita em até no máximo 24h antes do horário marcado.,MÉDIA
+6,RF27,duplicado com RF34,302201703,LUCAS GABRIEL NUNES ALVES,"Oferecer módulos de treinamento para médicos e profissionais de saúde, simulando cenários de consultas e diagnósticos, para aprimorar habilidades e preparar para casos complexos.",BAIXA
+6,RF28,,302004766,LUIS FELIPE FERREIRA SILVA,"O sistema deve possuir integração com os principais sistemas de registro de dados médicos do SUS, como Conecte SUS e RNDS.",ALTA
+6,RF29,duplicado com RF05,302302618,MARCELLO RONALD JOSÉ DA SILVA,O Sistema deve ser acessível a usuários em condições especiais.,MÉDIA
+6,RF30,duplicado com RF41,202108922,MARIA EDUARDA DE CAMPOS RAMOS,"O sistema deve permitir o agendamento de consultas, envio de convites e lembretes, além de fornecer integração com calendários.",ALTA
+6,RF31,"duplicado com RF42, RF44",302201706,MATEUS HENRIQUE GANDI DE OLIVEIRA,"O sistema deve ser capaz de escanear e simular a execução de movimentos do paciente a ser tratado a partir de gravações executadas por ele mesmo. Dessa forma, um médico pode analisar de forma mais fácil e não necessariamente em sincronia com o paciente, mas sim um horário de diponibilidade do médico. O aparelho, por ser caro, compensa mais do lado do médico, que precisa de um para atender N pacientes.",BAIXA
+6,RF32,"duplicado com RF06, RF22, RF25, RF13, RF36",302201707,MATHEUS FRANCO CASCÃO COSTA,O sistema deve ter uma sala virtual 3D onde médico e paciente interagem em tempo real com avatares.,MÉDIA
+6,RF33,,302204842,MAURO SÉRGIO DO NASCIMENTO JUNIOR,O sistema deve se integrar com smartwatches e sensores de saúde para possibilitar monitoramento em tempo real.,MÉDIA
+6,RF34,duplicado com RF27,302201708,MIKAEL BORGES DE OLIVEIRA E SILVA JUNIOR,Treinamentos médicos em VR para praticar procedimentos de forma segura.,BAIXA
+6,RF35,,302300197,PHABLO TAVARES PAIXÃO,"o sistema deve permitir que o médico crie uma sala virtual para a consulta, que pode ser customizada da maneira que desejar dependendo do tipo de paciente.",MÉDIA
+6,RF36,"duplicado com RF06, RF22, RF25, RF32, RF13",302200031,RAQUEL DIAS DA SILVA,O sistema deve permitir que médicos e pacientes interajam em um ambiente virtual 3D simulando uma consulta presencial.,ALTA
+6,RF37,,302201712,SAMUEL JOSE EVANGELISTA ALVES,O sistema deve integrar um assistente virtual que transcreve a consulta para facilitar a consulta e elaboração do prontuário do paciente,MÉDIA
+6,RF38,,302201713,SOPHIA FERNANDES MAGALHÃES ALMEIDA,O sistema deve permitir que o paciente envie exames e documentos médicos antes da consulta para análise do médico.,ALTA
+6,RF39,,302201714,STEPHANY DE OLIVEIRA SOUSA MILHOMEM,O sistema deve permitir que médicos solicitem e analisem exames dentro do ambiente VR.,ALTA
+6,RF40,,302201715,TANIELE ROCHA MADUREIRA,O sistema deve notificar os usuários no momento de uma consulta,ALTA
+6,RF41,duplicado com RF30,302009586,THAYLINY ALVES DE MOURA,O  sistema deve permitir o usáurio escolher a especialidade  que deseja consultar,MÉDIA
+6,RF42,"duplicado com RF31, RF44",302201716,THIAGO VICENTE DE AQUINO,"A plataforma deve possibilitar exames simples, como visualização de lesões ou monitoramento de sinais vitais via dispositivos conectados.",MÉDIA
+6,RF43,,302204532,VICTOR MARTINS VIEIRA,"O sistema deve implementar medidas para garantir que as informações trocadas durante as sessões de telemedicina sejam protegidas, de forma a evitar o acesso indevido.",ALTA
+6,RF44,"duplicado com RF31, RF42",302201717,VITOR MARTINS CASTANHEIRA,O sistema deve permitir que todos os detalhes visuais do paciente sejam perfeitamentes perceptíveis para o médico,ALTA
+6,RF45,,302201718,VITOR PAULO ETERNO GODOI,"O sistema deve permitir que mais de uma pessoa interaja com o médico, para o caso de pacientes com limitações extremas.",MÉDIA
+6,RF46,,302204843,VITORIA LUZ ALVES D ABADIA,"Os pacientes e médicos devem usar dispositivos de VR (como Oculus Rift, HTC Vive, PlayStation VR) para entrar em uma sala de consulta virtual. O médico pode interagir com o paciente, realizar o exame de forma virtual (com representações 3D de partes do corpo, por exemplo) e fazer a anamnese.",BAIXA

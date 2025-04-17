@@ -1,0 +1,92 @@
+Cenário;Matrícula;Nome;Sugestão
+5;202201679;ABRAAO SANTIAGO MOREIRA;O sistema deve permitir Histórico imutável de transações: Registros de pedidos e pagamentos armazenados no blockchain para evitar fraudes
+5;202201680;ALINE AYUMI SOMA HAMANO;O sistema deve permitir que o usuário salve suas informações de cartões bancários de forma segura para as próximas compras
+5;202201681;ALINE LIMA MARTINS COELHO;O software deve atualizar automaticamente o estoque dos produtos conforme as compras são realizadas.
+5;202206141;ALINE NUNES DOS SANTOS;A plataforma deve apresentar uma interface intuitiva que facilite o uso e a compreensão para os usuários.
+5;202306332;ÁLVARO VELOSO LISBOA;Implementação de carteiras digitais (wallets) integradas que permitam aos usuários armazenar criptomoedas e realizar pagamentos diretamente na plataforma, com confirmação em tempo real das transações na blockchain.
+5;202201683;ARTHUR NUCADA FELIX DE SOUZA;O sistema deve ter integração com sistemas de carteiras digitais que usem blockchain
+5;202305528;CLAUDIO CRISTIANO LOUZA FILHO;A plataforma pode permitir a tokenização de produtos em NFTs, garantindo autenticidade, originalidade e rastreabilidade em compras de itens exclusivos.
+5;202201689;FELIPE MOREIRA SILVA;O sistema deve fornecer interoperabilidade entre diferentes blockchains.
+5;202201691;GABRIEL BORGES GARCIA;O Sistema deve mostrar as especificaçoes dos produtos aos compradores.
+5;202206970;GABRIEL FERREIRA SILVA;Todos os itens cadastrados devem ser rastreadas na blockchain entao mesmo caso ocorra uma compra e revenda o aplicativo ainda deve raestrar como o mesmo objeto e informar que ele ja foi comercializado antes na plataforma e suas informaçoes da ultima negociação
+5;202108000;GABRIEL MILHOMEM CUNHA;O sistema deve garantir que apenas produtos disponíveis em estoque sejam vendidos.
+5;202004754;GIOVANNA LYSSA RODRIGUES BORGES TELES;A plataforma deve garantir a verificação de autenticidade dos vendedores, utilizando contratos inteligentes para validar a identidade e a reputação
+5;202201692;GUILHERME GONÇALVES DUTRA DE MENDONÇA;O usuário deve poder cadastrar sua carteira digital na plataforma e utilizar criptomoedas para realizar pagamentos.
+5;202107016;GUSTAVO NEVES PIEDADE LOUZADA;O sistema deve estar em conformidade com todos os padrões de rede blockchain
+5;201802766;HALLEFFY HENRYK REIS SANTOS;O sistema deve permitir o usuário selecionar itens para a compra.
+5;202201693;HUGO MORENO I VEIGA JARDIM;A plataforma deve garantir rastreabilidade completa de produtos e transações financeiras transparentes e seguras. Deve incluir contratos inteligentes para automatizar processos de venda e sistema de reputação à prova de fraude.
+5;201910884;JAIR SOUZA MEIRA RODRIGUES;O sistema deve permitir a integração com outras carteiras externas para gerenciamento de moedas identificadas em comum. 
+5;202201694;JHEISSYANE KELLY DA SILVA SOUZA;O sistema deve permitir o rastreio das compras do usuário em tempo real.
+5;202201695;JOÃO GABRIEL CAVALCANTE FRANÇA;O sistema deve possuir compatibilidade com a criptomoeda DogeCoin.
+5;202201697;JOÃO VITOR ALVES DOS REIS;A plataforma deve oferecer alta disponibilidade e desempenho, visando diminuir a taxa de desistência dos usuários durante compras.
+5;201910887;JOÃO VITOR DA COSTA ALMEIDA;A plataforma deve garantir transações seguras e transparentes usando tecnologia blockchain, permitindo que os usuários comprem e vendam produtos com garantia. 
+5;202201699;JOSÉ ALVES DE OLIVEIRA NETO;O sistema deve oferecer um mecanismo de autentificação para garantir que os vendedores sejam legítimos e reduzir o risco de fraude.
+5;202004761;JOSÉ CARLOS LEE;O sistema deve permitir que o comprador visualize o histórico imutável de transações de um pedido (ex: pagamento confirmado, envio, entrega) registrado na blockchain.
+5;202300194;JOSEPPE PEDRO CUNHA FELLINI;A plataforma deve utilizar blockchain para garantir transações seguras e transparentes no comércio eletrônico.
+5;202201700;LEONARDO MOREIRA DE ARAÚJO;O sistema não deve permitir a venda de um produto caso o vendedor não o tenha mais em estoque.
+5;202201703;LUCAS GABRIEL NUNES ALVES;A plataforma deve possibilitar a realização de pagamentos utilizando criptomoedas e outras formas de pagamento descentralizadas.
+5;202004766;LUIS FELIPE FERREIRA SILVA;A plataforma deve permitir a utilização das principais criptomoedas do mercado para o pagamento das transações.
+5;202302618;MARCELLO RONALD JOSÉ DA SILVA;Imprescindivel um alto nível de segurança nos dados, cripografia de ponta e validações de checagem individual. 
+5;202108922;MARIA EDUARDA DE CAMPOS RAMOS;O sistema deve registrar todas as transações, seja de pagamento ou estorno, na blockchain.
+5;202201706;MATEUS HENRIQUE GANDI DE OLIVEIRA;A plataforma deve ser acessível a todos os usuários, a partir do acesso a informação facilitada. Nem todas as transações ocorrerão com nível baixo de execução, envolvendo a necessidade de tarefas complexas ou pre requisitos como a necessidade de um criptomoeda. Nesse caso, deve haver uma forma de explicar como os processos são seguros e rodam por debaixo dos panos. Uma boa jogada de marketing.
+5;202201707;MATHEUS FRANCO CASCÃO COSTA;O pagamento fica retido no contrato inteligente até que o produto seja entregue.
+5;202204842;MAURO SÉRGIO DO NASCIMENTO JUNIOR;Avaliações e comentários armazenados em blockchain para evitar manipulação.
+5;202201708;MIKAEL BORGES DE OLIVEIRA E SILVA JUNIOR;o sistema deve realizar Transações seguras com contratos inteligentes para rastreamento.
+5;202300197;PHABLO TAVARES PAIXÃO;a plataforma deve ser customizavel a diferentes necessidades dos interessados em vender nela
+5;202200031;RAQUEL DIAS DA SILVA;A plataforma deve registrar as transações para garantir a rastreabilidade, autenticidade e segurança.
+5;202201712;SAMUEL JOSE EVANGELISTA ALVES; O sistema deve se integrar com gateways de pagamento que convertem automaticamente moeda fiduciária para criptomoeda
+5;202201713;SOPHIA FERNANDES MAGALHÃES ALMEIDA;A plataforma deve permitir que os usuários acompanhem o status da entrega de seus pedidos em tempo real, com atualizações armazenadas diretamente na blockchain.
+5;202201714;STEPHANY DE OLIVEIRA SOUSA MILHOMEM;O sistema deve permitir conexão com carteiras externas para melhor integração e experiência do usuário.
+5;202201715;TANIELE ROCHA MADUREIRA;O sistema deve oferecer a possibilidade de usar diferentes formas de pagamento
+5;202009586;THAYLINY ALVES DE MOURA;O e-commerce deve oferecer  autentificação em dois  fatores para deixar a aplicação mais segura 
+5;202201716;THIAGO VICENTE DE AQUINO;Integrar com carteiras digitais já estabelecidas no mercado.
+5;202204532;VICTOR MARTINS VIEIRA;O sistema deve realizar interfaces com os sistemas dos correios e outras transportadoras para determinar os custos de transporte e para coordenar as etapas logísticas do processo de compra e venda.
+5;202201717;VITOR MARTINS CASTANHEIRA;A plataforma deve permitir que o usuário devolva um produto comprado e receba seu dinheiro na mesma forma do pagamento efetuado
+5;202201718;VITOR PAULO ETERNO GODOI;O sistema deve exigir um mínimo de informações pessoais do usuário para garantir a segurança das transações.
+5;202204843;VITORIA LUZ ALVES D ABADIA;O sistema de autenticação pode ser reforçado utilizando wallets (carteiras digitais) baseadas em blockchain para autenticar e validar usuários. A autenticação pode ser feita por meio de chaves públicas e privadas.
+6;302201679;ABRAAO SANTIAGO MOREIRA;O sistema deve permitir chat e anotações médicas: Médico pode fazer anotações e enviar mensagens ao paciente.
+6;302201680;ALINE AYUMI SOMA HAMANO;O sistema deve permitir que o paciente avalie o médico que o atendeu.
+6;302201681;ALINE LIMA MARTINS COELHO;O paciente deve ter acesso a um repositório, dentro da plataforma, com seus laudos, prescrições, exames e orientações recebidas nas consultas.
+6;302206141;ALINE NUNES DOS SANTOS;O sistema deve garantir que, durante as teleconsultas, o médico e o paciente consigam se comunicar de maneira clara e sem interrupções.
+6;302306332;ÁLVARO VELOSO LISBOA;A solução deve permitir acesso simplificado para pacientes com limitações (física, mental, idade avançada).
+6;302201683;ARTHUR NUCADA FELIX DE SOUZA;O sistema deve mimetizar o ambiente de um consultório real
+6;302305528;CLAUDIO CRISTIANO LOUZA FILHO;O sistema deve permitir que o paciente avalie a experiência da consulta em VR, sugerindo melhorias na interface, comunicação ou ambientação virtual.
+6;302201689;FELIPE MOREIRA SILVA;O sistema deve permitir que o usuário paciente consiga ter uma experiência imersiva independante de sua mobilidade.
+6;302201691;GABRIEL BORGES GARCIA;O Sistema deve ser capaz de gerar um autenticador para as receitas virtuais.
+6;202206970;GABRIEL FERREIRA SILVA;Permitir a visualização de exames como raio x e ultrasom no ambiente em 3d no ambiente
+6;302108000;GABRIEL MILHOMEM CUNHA;O sistema deve permitir que o médico visualize imagens e vídeos de exames médicos em 3D durante a consulta.
+6;202004754;GIOVANNA LYSSA RODRIGUES BORGES TELES;O sistema deve permitir que o médico faça anotações em tempo real durante a consulta, visíveis para o paciente no ambiente virtual
+6;302201692;GUILHERME GONÇALVES DUTRA DE MENDONÇA;O usuário deve ser capaz de agendar e participar de consultas médicas remotas utilizando realidade virtual, interagindo com o profissional de saúde em um ambiente imersivo.
+6;202107016;GUSTAVO NEVES PIEDADE LOUZADA;O sistema deve utilizar modelos 3D inseridos dentro da Realidade Virtual para facilitar a explicação de condições de saúde específicas aos pacientes
+6;201802766;HALLEFFY HENRYK REIS SANTOS;O sistema deve cadastrar um usuário, esse podendo ser médico ou paciente.
+6;302201693;HUGO MORENO I VEIGA JARDIM;O sistema deve permitir consultas imersivas com visualização 3D de dados médicos e sintomas. Deve oferecer integração com dispositivos médicos domésticos e suporte para sessões terapêuticas virtuais.
+6;302009569;JANNDERSON OLIVEIRA DA SILVA;O sistema deve priorizar pacientes urgentes de acordo com a descrição que o usuário fara por aúdio, que deve ser transcrito e traduzido pelo sistema, o paciente ou uma pessoa próxima receberá orientações e esse usuário terá prioridade na fila, como por exemplo num acidente de trânsito com vitima grave com objeto transfixado.
+6;201910884;JAIR SOUZA MEIRA RODRIGUES;O sistema deve permitir a conexão com outros dispositivos como câmeras ou glicosimetros por exemplo. 
+6;302201694;JHEISSYANE KELLY DA SILVA SOUZA;O sistema deve se integrar a dispositivos que monitorem os sinais vitais em tempo real
+6;302201695;JOÃO GABRIEL CAVALCANTE FRANÇA;O sistema deve permitir o login utilizando reconhecimento facial.
+6;302201697;JOÃO VITOR ALVES DOS REIS;As teleconsultas devem ser gravadas para auditorias, em casos de suspeitas de negligência médica.
+6;201910887;JOÃO VITOR DA COSTA ALMEIDA;O sistema deve permitir que pacientes realizem consultas médicas remotas usando dispositivos de realidade virtual
+6;302201699;JOSÉ ALVES DE OLIVEIRA NETO;O sistema deve garantir que todas as informações médicas sejam armazenadas com segurança e possam ser compartilhadas com o médico autorizado dentro do ambiente virtual.
+6;302004761;JOSÉ CARLOS LEE;O sistema deve permitir que o médico carregue modelos anatômicos 3D genéricos ou específicos do paciente (baseados em exames como tomografia/ressonância) no ambiente VR e manipule-os (girar, ampliar, destacar partes) durante a consulta para explicar condições ou procedimentos ao paciente de forma visual e interativa.
+6;302300194;JOSEPPE PEDRO CUNHA FELLINI;O sistema deve permitir consultas médicas remotas utilizando realidade virtual para uma experiência mais imersiva e interativa.
+6;302201700;LEONARDO MOREIRA DE ARAÚJO;O sistema deve permitir que o cancelamento de uma consulta seja feita em até no máximo 24h antes do horário marcado.
+6;302201703;LUCAS GABRIEL NUNES ALVES;Oferecer módulos de treinamento para médicos e profissionais de saúde, simulando cenários de consultas e diagnósticos, para aprimorar habilidades e preparar para casos complexos.
+6;302004766;LUIS FELIPE FERREIRA SILVA;O sistema deve possuir integração com os principais sistemas de registro de dados médicos do SUS, como Conecte SUS e RNDS.
+6;302302618;MARCELLO RONALD JOSÉ DA SILVA;O Sistema deve ser acessível a usuários em condições especiais.
+6;202108922;MARIA EDUARDA DE CAMPOS RAMOS;O sistema deve permitir o agendamento de consultas, envio de convites e lembretes, além de fornecer integração com calendários.
+6;302201706;MATEUS HENRIQUE GANDI DE OLIVEIRA;O sistema deve ser capaz de escanear e simular a execução de movimentos do paciente a ser tratado a partir de gravações executadas por ele mesmo. Dessa forma, um médico pode analisar de forma mais fácil e não necessariamente em sincronia com o paciente, mas sim um horário de diponibilidade do médico. O aparelho, por ser caro, compensa mais do lado do médico, que precisa de um para atender N pacientes. 
+6;302201707;MATHEUS FRANCO CASCÃO COSTA;O sistema deve ter uma sala virtual 3D onde médico e paciente interagem em tempo real com avatares.
+6;302204842;MAURO SÉRGIO DO NASCIMENTO JUNIOR;O sistema deve se integrar com smartwatches e sensores de saúde para possibilitar monitoramento em tempo real.
+6;302201708;MIKAEL BORGES DE OLIVEIRA E SILVA JUNIOR;Treinamentos médicos em VR para praticar procedimentos de forma segura.
+6;302300197;PHABLO TAVARES PAIXÃO;o sistema deve permitir que o médico crie uma sala virtual para a consulta, que pode ser customizada da maneira que desejar dependendo do tipo de paciente. 
+6;302200031;RAQUEL DIAS DA SILVA;O sistema deve permitir que médicos e pacientes interajam em um ambiente virtual 3D simulando uma consulta presencial.
+6;302201712;SAMUEL JOSE EVANGELISTA ALVES;O sistema deve integrar um assistente virtual que transcreve a consulta para facilitar a consulta e elaboração do prontuário do paciente
+6;302201713;SOPHIA FERNANDES MAGALHÃES ALMEIDA;O sistema deve permitir que o paciente envie exames e documentos médicos antes da consulta para análise do médico.
+6;302201714;STEPHANY DE OLIVEIRA SOUSA MILHOMEM;O sistema deve permitir que médicos solicitem e analisem exames dentro do ambiente VR.
+6;302201715;TANIELE ROCHA MADUREIRA;O sistema deve notificar os usuários no momento de uma consulta
+6;302009586;THAYLINY ALVES DE MOURA;O  sistema deve permitir o usáurio escolher a especialidade  que deseja consultar
+6;302201716;THIAGO VICENTE DE AQUINO;A plataforma deve possibilitar exames simples, como visualização de lesões ou monitoramento de sinais vitais via dispositivos conectados. 
+6;302204532;VICTOR MARTINS VIEIRA;O sistema deve implementar medidas para garantir que as informações trocadas durante as sessões de telemedicina sejam protegidas, de forma a evitar o acesso indevido.
+6;302201717;VITOR MARTINS CASTANHEIRA;O sistema deve permitir que todos os detalhes visuais do paciente sejam perfeitamentes perceptíveis para o médico 
+6;302201718;VITOR PAULO ETERNO GODOI;O sistema deve permitir que mais de uma pessoa interaja com o médico, para o caso de pacientes com limitações extremas.
+6;302204843;VITORIA LUZ ALVES D ABADIA;Os pacientes e médicos devem usar dispositivos de VR (como Oculus Rift, HTC Vive, PlayStation VR) para entrar em uma sala de consulta virtual. O médico pode interagir com o paciente, realizar o exame de forma virtual (com representações 3D de partes do corpo, por exemplo) e fazer a anamnese.

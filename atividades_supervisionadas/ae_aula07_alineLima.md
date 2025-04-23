@@ -4,7 +4,7 @@
 
 ### Prototipagem
 
-A técnica de prototipagem tem como finalidade representar as o _layout_ e as características de funcionamento da interface do sistema por meio de desenhos, sejam eles “rabiscos” no papel ou interfaces bem próximas do real, feitas com ferramentas que permitem esboçar a interface de uma maneira semelhante ao sistema final. Por isso, é uma técnica aplicável em projetos que tenham foco na interface ou na interação do usuário com o sistema. Nesse sentido, é possível classificar protótipos em três tipos:
+A técnica de prototipagem tem como finalidade representar o _layout_ e as características de funcionamento da interface do sistema por meio de desenhos, sejam eles “rabiscos” no papel ou interfaces bem próximas do real, feitas com ferramentas que permitem esboçar a interface de uma maneira semelhante ao sistema final. Por isso, é uma técnica aplicável em projetos que tenham foco na interface ou na interação do usuário com o sistema. Nesse sentido, é possível classificar protótipos em três tipos:
 - Baixa fidelidade (wireframes): não são semelhantes ao sistema final e são feitos apenas para esboçar as características iniciais da interface;
 - Média fidelidade (mockups): é mais elaborado do que uma amostra de baixa fidelidade, mas ainda não possui tantos detalhes que remetem à interface final do produto;
 - Alta fidelidade: oferece uma interface semelhante à final, além de alto grau de interatividade e de realismo.

@@ -5,6 +5,8 @@ abstract class Usuario {
   - email: String
   - senha: String
   - perfil: String
+  - cpf: String     
+  - dataNascimento: Date
 }
 
 class Medico {

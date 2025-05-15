@@ -1,6 +1,6 @@
 @startuml
 
-' Modelo de domínio combinado (classes de análise - atributos e associações)
+' Modelo de domÃ­nio combinado (classes de anÃ¡lise - atributos e associaÃ§Ãµes)
 
 abstract class Usuario {
     id: Integer
@@ -57,8 +57,16 @@ class Mensagem {
     destinatario: Usuario
 }
 
-' Herança Usuario <|-- Medico Usuario <|-- Paciente
+' HeranÃ§a 
+Usuario <|-- Medico 
+Usuario <|-- Paciente
 
-' Associações Medico "1" -- "0.." Consulta : realiza Paciente "1" -- "0.." Consulta : participa Consulta "1" -- "1" Ambiente3D : possui Paciente "1" -- "0.." DocumentoMedico : envia Consulta "1" -- "0.." AnotacaoMedica : possui Consulta "1" -- "0..*" Mensagem : possui
+' AssociaÃ§Ãµes 
+Medico "1" -- "0..*" Consulta : realiza
+Paciente "1" -- "0..*" Consulta : participa
+Consulta "1" -- "1" Ambiente3D : possui
+Paciente "1" -- "0..*" DocumentoMedico : envia
+Consulta "1" -- "0..*" AnotacaoMedica : possui
+Consulta "1" -- "0..*" Mensagem : possui
 
 @enduml

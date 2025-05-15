@@ -1,7 +1,5 @@
 @startuml
-
 ' Modelo de domínio combinado (classes de análise - atributos e associações)
-
 abstract class Usuario {
     id: Integer
     nome: String
@@ -25,19 +23,24 @@ class Paciente {
 class Consulta {
     id: Integer
     dataHora: DateTime
-    status: String 
+    status: String
+    tipoConsulta: String  ' Presencial ou Virtual
+    duracao: Integer      ' Em minutos
 }
 
 class DocumentoMedico {
     idDocumento: Integer
     nomeArquivo: String
     tipoArquivo: String
-    dataUpload: Date 
+    dataUpload: Date
+    descricao: String     ' Descrição do documento/exame
 }
 
 class Ambiente3D {
     id: Integer
-    descricao: String 
+    descricao: String
+    tipoAmbiente: String  ' Tipo de sala virtual
+    recursos: String[]    ' Recursos disponíveis no ambiente
 }
 
 class AnotacaoMedica {
@@ -45,16 +48,21 @@ class AnotacaoMedica {
     texto: String
     dataHoraCriacao: LocalDateTime
     dataHoraUltimaEdicao: LocalDateTime
-    medico: Medico
-    paciente: Paciente
 }
 
 class Mensagem {
     id: Integer
     texto: String
     dataHoraEnvio: LocalDateTime
-    remetente: Usuario
-    destinatario: Usuario
+    lida: Boolean         ' Indica se a mensagem foi lida
+}
+
+class SessaoVirtual {
+    id: Integer
+    dataHoraInicio: DateTime
+    dataHoraFim: DateTime
+    status: String        ' Em andamento, finalizada, etc.
+    linkAcesso: String    ' Link para acesso à sala virtual
 }
 
 ' Herança 
@@ -64,9 +72,14 @@ Usuario <|-- Paciente
 ' Associações 
 Medico "1" -- "0..*" Consulta : realiza
 Paciente "1" -- "0..*" Consulta : participa
-Consulta "1" -- "1" Ambiente3D : possui
+Consulta "1" -- "1" Ambiente3D : acontece em >
+Consulta "1" -- "0..1" SessaoVirtual : utiliza >
 Paciente "1" -- "0..*" DocumentoMedico : envia
-Consulta "1" -- "0..*" AnotacaoMedica : possui
-Consulta "1" -- "0..*" Mensagem : possui
-
+DocumentoMedico "0..*" -- "1" Consulta : associado a >
+Medico "1" -- "0..*" AnotacaoMedica : cria
+AnotacaoMedica "0..*" -- "1" Consulta : pertence a >
+AnotacaoMedica "0..*" -- "1" Paciente : sobre >
+Mensagem "0..*" -- "1" Usuario : enviada por >
+Mensagem "0..*" -- "1" Usuario : recebida por >
+Consulta "1" -- "0..*" Mensagem : contém >
 @enduml

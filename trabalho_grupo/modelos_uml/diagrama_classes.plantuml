@@ -73,6 +73,16 @@ class SessaoVirtual {
     linkAcesso: String    ' Link para acesso à sala virtual
 }
 
+class Avaliacao {
+    id: Integer
+    dataHoraCriacao: LocalDateTime
+    dataConsulta: Date
+    comentario: String
+    nota: float
+    paciente: Paciente
+    medico: Medico
+}
+
 ' Herança 
 Usuario <|-- Medico 
 Usuario <|-- Paciente
@@ -90,4 +100,6 @@ AnotacaoMedica "0..*" -- "1" Paciente : sobre >
 Mensagem "0..*" -- "1" Usuario : enviada por >
 Mensagem "0..*" -- "1" Usuario : recebida por >
 Consulta "1" -- "0..*" Mensagem : contém >
+Paciente "1" -- "0..*" Avaliacao : envia >
+Medico "1" -- "0..*" Avaliacao : recebe >
 @enduml

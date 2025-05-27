@@ -1,5 +1,12 @@
 @startuml
 ' Modelo de domínio combinado (classes de análise - atributos e associações)
+
+enum TipoVisualizacao3D {
+    IMAGEM_3D
+    VIDEO_3D
+    NAO_APLICAVEL
+}
+
 abstract class Usuario {
     id: Integer
     nome: String
@@ -34,6 +41,7 @@ class DocumentoMedico {
     tipoArquivo: String
     dataUpload: Date
     descricao: String     ' Descrição do documento/exame
+    tipoVisualizacao: TipoVisualizacao3D ' Indica se é 3D e qual tipo, ou não aplicável
 }
 
 class Ambiente3D {

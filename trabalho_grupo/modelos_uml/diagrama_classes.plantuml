@@ -31,15 +31,15 @@ abstract class Usuario {
     telefone: String
     perfil: String
     cpf: String
-    dataNascimento: Date 
+    dataNascimento: Date
 }
 
 class Medico {
     crm: String
-    especialidade: String 
+    especialidade: String
 }
 
-class Paciente { 
+class Paciente {
     ' Herda atributos de Usuario
 }
 
@@ -66,13 +66,11 @@ class DocumentoMedico {
     dataValidadeAutenticador: DateTime  ' Data/hora de expiração (30 dias após emissão)
 }
 
-' Observação: autenticador e dataValidadeAutenticador são preenchidos apenas quando tipoDocumento = PRESCRICAO.
-
 class RepositorioDocumentos {
     id: Integer
     dataCriacao: Date
     ultimaAtualizacao: Date
-    quota: Long           ' Espaço de armazenamento em bytes
+    quota: Long            ' Espaço de armazenamento em bytes
 }
 
 class Ambiente3D {
@@ -105,6 +103,18 @@ class SessaoVirtual {
     linkAcesso: String
 }
 
+class GravacaoConsulta {
+    idGravacao: Integer
+    urlArmazenamento: String
+    formatoArquivo: String      ' e.g., MP4, WEBM
+    duracaoSegundos: Integer
+    tamanhoBytes: Long
+    dataHoraInicioGravacao: DateTime
+    dataHoraFimGravacao: DateTime
+    statusGravacao: String      ' e.g., COMPLETA, PROCESSANDO, FALHOU_SISTEMA, FALHOU_USUARIO_DESABILITOU
+    hashConteudo: String        ' Para verificação de integridade
+}
+
 class Avaliacao {
     id: Integer
     dataHoraCriacao: LocalDateTime
@@ -113,13 +123,15 @@ class Avaliacao {
     nota: float
 }
 
-Usuario <|-- Medico 
+Usuario <|-- Medico
 Usuario <|-- Paciente
 
 Medico "1" -- "0..*" Consulta : realiza
 Paciente "1" -- "0..*" Consulta : participa
 Consulta "1" -- "1" Ambiente3D : acontece em >
 Consulta "1" -- "0..1" SessaoVirtual : utiliza >
+
+SessaoVirtual "1" -- "0..1" GravacaoConsulta : possui >
 
 Paciente "1" -- "1" RepositorioDocumentos : possui >
 RepositorioDocumentos "1" -- "0..*" DocumentoMedico : contém >
@@ -146,6 +158,11 @@ autenticador e dataValidadeAutenticador
 são utilizados somente para PRESCRICAO.
 Permitem validação externa da receita por farmácia
 ou sistema via endpoint público.
+end note
+
+note bottom of GravacaoConsulta
+O hashConteudo garante a integridade da gravação.
+O statusGravacao indica a disponibilidade e o estado da gravação.
 end note
 
 @enduml

@@ -1,5 +1,12 @@
 @startuml
 ' Modelo de domínio combinado (classes de análise - atributos e associações)
+
+enum TipoVisualizacao3D {
+    IMAGEM_3D
+    VIDEO_3D
+    NAO_APLICAVEL
+}
+
 abstract class Usuario {
     id: Integer
     nome: String
@@ -34,6 +41,7 @@ class DocumentoMedico {
     tipoArquivo: String
     dataUpload: Date
     descricao: String     ' Descrição do documento/exame
+    tipoVisualizacao: TipoVisualizacao3D ' Indica se é 3D e qual tipo, ou não aplicável
 }
 
 class Ambiente3D {
@@ -65,6 +73,16 @@ class SessaoVirtual {
     linkAcesso: String    ' Link para acesso à sala virtual
 }
 
+class Avaliacao {
+    id: Integer
+    dataHoraCriacao: LocalDateTime
+    dataConsulta: Date
+    comentario: String
+    nota: float
+    paciente: Paciente
+    medico: Medico
+}
+
 ' Herança 
 Usuario <|-- Medico 
 Usuario <|-- Paciente
@@ -82,4 +100,6 @@ AnotacaoMedica "0..*" -- "1" Paciente : sobre >
 Mensagem "0..*" -- "1" Usuario : enviada por >
 Mensagem "0..*" -- "1" Usuario : recebida por >
 Consulta "1" -- "0..*" Mensagem : contém >
+Paciente "1" -- "0..*" Avaliacao : envia >
+Medico "1" -- "0..*" Avaliacao : recebe >
 @enduml

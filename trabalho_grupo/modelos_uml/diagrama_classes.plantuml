@@ -7,6 +7,22 @@ enum TipoVisualizacao3D {
     NAO_APLICAVEL
 }
 
+enum TipoDocumento {
+    LAUDO
+    PRESCRICAO
+    EXAME
+    ORIENTACAO
+    ATESTADO
+    HISTORICO
+    OUTRO
+}
+
+enum OrigemDocumento {
+    ENVIADO_PACIENTE
+    ENVIADO_MEDICO
+    GERADO_SISTEMA
+}
+
 abstract class Usuario {
     id: Integer
     nome: String
@@ -39,16 +55,27 @@ class DocumentoMedico {
     idDocumento: Integer
     nomeArquivo: String
     tipoArquivo: String
-    dataUpload: Date
-    descricao: String     ' Descrição do documento/exame
-    tipoVisualizacao: TipoVisualizacao3D ' Indica se é 3D e qual tipo, ou não aplicável
+    tipoDocumento: TipoDocumento
+    origem: OrigemDocumento
+    dataUpload: DateTime
+    descricao: String
+    tipoVisualizacao: TipoVisualizacao3D
+    conteudo: Blob
+    visivelPaciente: Boolean
+}
+
+class RepositorioDocumentos {
+    id: Integer
+    dataCriacao: Date
+    ultimaAtualizacao: Date
+    quota: Long           ' Espaço de armazenamento em bytes
 }
 
 class Ambiente3D {
     id: Integer
     descricao: String
-    tipoAmbiente: String  ' Tipo de sala virtual
-    recursos: String[]    ' Recursos disponíveis no ambiente
+    tipoAmbiente: String
+    recursos: String[]
 }
 
 class AnotacaoMedica {
@@ -62,15 +89,16 @@ class Mensagem {
     id: Integer
     texto: String
     dataHoraEnvio: LocalDateTime
-    lida: Boolean         ' Indica se a mensagem foi lida
+    lida: Boolean
+    anexos: DocumentoMedico[0..*]
 }
 
 class SessaoVirtual {
     id: Integer
     dataHoraInicio: DateTime
     dataHoraFim: DateTime
-    status: String        ' Em andamento, finalizada, etc.
-    linkAcesso: String    ' Link para acesso à sala virtual
+    status: String
+    linkAcesso: String
 }
 
 class Avaliacao {
@@ -79,27 +107,33 @@ class Avaliacao {
     dataConsulta: Date
     comentario: String
     nota: float
-    paciente: Paciente
-    medico: Medico
 }
 
-' Herança 
 Usuario <|-- Medico 
 Usuario <|-- Paciente
 
-' Associações 
 Medico "1" -- "0..*" Consulta : realiza
 Paciente "1" -- "0..*" Consulta : participa
 Consulta "1" -- "1" Ambiente3D : acontece em >
 Consulta "1" -- "0..1" SessaoVirtual : utiliza >
-Paciente "1" -- "0..*" DocumentoMedico : envia
-DocumentoMedico "0..*" -- "1" Consulta : associado a >
+
+Paciente "1" -- "1" RepositorioDocumentos : possui >
+RepositorioDocumentos "1" -- "0..*" DocumentoMedico : contém >
+
+DocumentoMedico "0..*" -- "1" Consulta : relacionado a >
+DocumentoMedico "0..1" -- "1" Mensagem : anexo em >
+
+Medico "1" -- "0..*" DocumentoMedico : envia >
+Paciente "1" -- "0..*" DocumentoMedico : envia >
+
 Medico "1" -- "0..*" AnotacaoMedica : cria
 AnotacaoMedica "0..*" -- "1" Consulta : pertence a >
 AnotacaoMedica "0..*" -- "1" Paciente : sobre >
-Mensagem "0..*" -- "1" Usuario : enviada por >
-Mensagem "0..*" -- "1" Usuario : recebida por >
-Consulta "1" -- "0..*" Mensagem : contém >
-Paciente "1" -- "0..*" Avaliacao : envia >
-Medico "1" -- "0..*" Avaliacao : recebe >
+
+Mensagem "1" -- "1" Usuario : remetente >
+Mensagem "1" -- "1" Usuario : destinatário >
+
+Paciente "1" -- "0..*" Avaliacao : escreve >
+Avaliacao "1" -- "1" Medico : sobre >
+Avaliacao "0..1" -- "1" Consulta : referencia >
 @enduml

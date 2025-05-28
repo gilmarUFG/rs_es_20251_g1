@@ -62,7 +62,11 @@ class DocumentoMedico {
     tipoVisualizacao: TipoVisualizacao3D
     conteudo: Blob
     visivelPaciente: Boolean
+    autenticador: String          ' Código alfanumérico de 8 caracteres (para PRESCRICAO)
+    dataValidadeAutenticador: DateTime  ' Data/hora de expiração (30 dias após emissão)
 }
+
+' Observação: autenticador e dataValidadeAutenticador são preenchidos apenas quando tipoDocumento = PRESCRICAO.
 
 class RepositorioDocumentos {
     id: Integer
@@ -136,4 +140,12 @@ Mensagem "1" -- "1" Usuario : destinatário >
 Paciente "1" -- "0..*" Avaliacao : escreve >
 Avaliacao "1" -- "1" Medico : sobre >
 Avaliacao "0..1" -- "1" Consulta : referencia >
+
+note right of DocumentoMedico
+autenticador e dataValidadeAutenticador
+são utilizados somente para PRESCRICAO.
+Permitem validação externa da receita por farmácia
+ou sistema via endpoint público.
+end note
+
 @enduml

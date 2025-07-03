@@ -1,0 +1,99 @@
+Commit;Author;Date;Message
+9aafe76e595e835d83db179439dea4e5d51e1622 Merge: 0fee214 dda010f;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sun Jun 29 13:06:46 2025 -0300;Merge branch 'estudante'
+0fee21484c4ca53ae0cfb13576b2c812c9bed073;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sun Jun 29 12:42:13 2025 -0300;update repository
+dda010fa8c7193c5b4de40f211b23b22416d6bfd;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Thu Jun 26 19:54:20 2025 -0300;Add files via upload
+6270042e3c064259b1f55bf59f2fe31d8f0dd989;Aline Lima <aline.coelho@discente.ufg.br>;Thu Jun 26 09:23:34 2025 -0300;add slides
+13a56600f6f301226d21be96862085a0bd4e8b32;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Wed May 28 15:00:31 2025 -0300;Update diagrama_classes.plantuml -> para contemplar RF09
+052b9d7c64a784a98e3449bb2f0a826137745e75;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Wed May 28 14:46:14 2025 -0300;Create h09_02.md
+69b6586fbb0a8271d1ff6311a12f7f437cdb4c39;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Wed May 28 14:45:09 2025 -0300;Create h09_01.md
+d9dacc9f065e2032aa4ef2c9cbe55329f719d750;alinenunes21 <alinenunes21@hotmail.com>;Wed May 28 10:51:19 2025 -0300;Adicao do hu 07 e atualização do diagrama
+bdf526c876edc5e028612c2a419b4da085ff7914;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed May 28 00:21:25 2025 -0300;Update h08_02.md
+5da23442252370e7992f133050427dc5adc40cb4;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Wed May 28 00:09:13 2025 -0300;Update h10_4.md
+f21b860019f303a19e47ba614b480a9d2aa769ec Merge: 8615e8f 6dd9459;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed May 28 00:02:54 2025 -0300;Merge branch 'main' of https://github.com/gilmarUFG/rs_es_20251_g1 into estudante
+8615e8fb6487965945ffcb3691695f3991308825;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed May 28 00:02:25 2025 -0300;adição de repositório de documentos no diagrama
+4b85bd4d73ae6554447b713acf7b8f43e6c173ce;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Tue May 27 23:35:51 2025 -0300;adição da HU de exclusão de documentos
+55114c08ae7d470ff23e04cb4e39fe613e77e090 Merge: 13392f0 bcf2832;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Tue May 27 23:31:16 2025 -0300;Merge branch 'AyuHamano-patch-1' of https://github.com/gilmarUFG/rs_es_20251_g1 into estudante
+6dd945926de37aa323998c11317ee4385f05b1c4 Merge: 14446fc 13392f0;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Tue May 27 23:30:13 2025 -0300;Merge pull request #4 from gilmarUFG/estudante Estudante
+bcf2832cab9d64f36084b5260530dd16807bac77;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Tue May 27 23:29:38 2025 -0300;Update h08_03.md
+13392f039cc362c211b690a742483b2968ed1398;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Tue May 27 23:20:15 2025 -0300;Delete trabalho_grupo/historias_usuarios/h08_05.md
+c5dec125b984d51ebacb9e3ed845bc8667f8e998;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Tue May 27 20:15:07 2025 -0300;Adição da classe "Avaliacao"
+797720e1a6866bdf2dfbda82cd7dde46259040bb;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Tue May 27 19:59:25 2025 -0300;Create h10_5.md
+9a70a0cca761a22a5d0fd71bf5d353e058cd4197;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Tue May 27 19:54:55 2025 -0300;Create h10_4.md
+6a6f2fd271765dcef486a8d255230a82698e2928;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Tue May 27 19:47:13 2025 -0300;Update h10_3.md
+1d50bd27cb694155a864a249cf59812fff3dad07;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Tue May 27 19:46:46 2025 -0300;Create h10_3.md
+e44a32b40408b40edf00c29f5686102acbb269aa;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Tue May 27 19:38:48 2025 -0300;Create h10_2.md
+35dccc2c541b7ff17a9efa57e903d8890489d3bd;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Tue May 27 19:27:02 2025 -0300;Update h10_1.md
+f87c919734ef7c9b69c13aad52511fddfdfae924;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Tue May 27 19:26:08 2025 -0300;Update h10_1.md
+00c2592a4098e7e3a10b4962441e5b6def956c24;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Tue May 27 19:25:07 2025 -0300;Create h10_1.md
+8872968b517b0fd6d3a905f69dddaa39045a7d7b;Stephany Milhomem <stephanymilhomem25@gmail.com>;Tue May 27 12:10:38 2025 -0300;Add 'enum TipoVisualizacao3D'
+d672232b6cf84dd0b0a6cdd00795c04b5a472fea;Stephany Milhomem <stephanymilhomem25@gmail.com>;Mon May 26 20:39:10 2025 -0300;Rename h05.md to h06.md
+5513908456addd44a289481bfa703c103b9c3c27;Stephany Milhomem <stephanymilhomem25@gmail.com>;Mon May 26 20:38:44 2025 -0300;Rename h05.md to h06.md
+8ecb81deac6b63f80c741920a0ed119f13c56ce7;Stephany Milhomem <stephanymilhomem25@gmail.com>;Mon May 26 20:37:45 2025 -0300;Add h05.md
+14446fc3a528132adf7eafce5cd851a204164d48;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Sun May 25 22:50:30 2025 -0300;criação das histórias de usuário do RF08
+a249805474bbe72539801945aee25d73f075553b;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Thu May 22 15:11:33 2025 -0300;Rename ap_aula9_g1.md to ap5_aula9_g1.md
+b05e631fa00db7c1c0b065c53d3b45b7d06fb102;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Thu May 22 15:11:14 2025 -0300;Update ap_aula9_g1.md
+f5d64b342cae017d80586e502150a06e068043df;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Thu May 22 15:02:17 2025 -0300;Create  ap_aula9_g1.md
+e00dd68e7bcdb2e03353b463332cb590ae26827d;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Thu May 15 19:22:06 2025 -0300;Update diagrama_classes.plantuml
+1f30df11d1701dca48933800a6548d71576fce47;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Thu May 15 19:06:15 2025 -0300;Update h02_02.md
+337ccba7fe5163114c736fffd32b698007ee89a3;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Thu May 15 19:06:01 2025 -0300;Update h02_01.md
+7cebf987304c2c81cdbded2843861bf161b7f4be;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Thu May 15 19:04:03 2025 -0300;Create h02_02.md
+fed781a64370799e63f75fdecf259a28804dace8 Merge: 111e721 06e622a;Stephany Milhomem <stephanymilhomem25@gmail.com>;Thu May 15 19:03:12 2025 -0300;Merge branch 'estudante' of https://github.com/gilmarUFG/rs_es_20251_g1 into estudante
+111e721a2768d9df44a6ddedbe89aac255333faf;Stephany Milhomem <stephanymilhomem25@gmail.com>;Thu May 15 19:03:08 2025 -0300;Remove diagrama_classes.md
+0797e25e08941a944421a41e987de80a6a28fe62;Stephany Milhomem <stephanymilhomem25@gmail.com>;Thu May 15 19:02:00 2025 -0300;Renomear as hu's do RF01
+06e622ab3e6e1914cf7b2583b830c4577629ce07;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Thu May 15 19:01:45 2025 -0300;Create h02_01.md
+785607fe9e74524a974c541c52d6b9204f6d34d7;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Thu May 15 18:16:53 2025 -0300;Update definicao_trabalho_final_g1.md
+bbf37ce99b093eaabaa3eb6b014341c38e1afd54;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Thu May 15 13:40:54 2025 -0300;Update diagrama_classes.plantuml
+988d96619b2cb8d7cea450bd5942e222e2ffbea4;alinenunes21 <alinenunes21@hotmail.com>;Thu May 15 13:32:30 2025 -0300;fix(trabalhoFinal) Ajuste para local correto
+daa73d66297c5fecc68b6dfb069703f2d4219cf8;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Thu May 15 12:36:09 2025 -0300;Rename h09.md to h04_06.md
+0848421913e9e2c78a3e5dbca244fbb6b88b118e;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Thu May 15 12:35:56 2025 -0300;Rename h08.md to h04_05.md
+d4987bde88f34282d9346860065be27a6d3b7491;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Thu May 15 12:35:40 2025 -0300;Rename h07.md to h04_04.md
+bf446215379d75f4151003a018b5ab663e627237;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Thu May 15 12:35:23 2025 -0300;Rename h06.md to h04_03.md
+6eb544bc40ec147356b29206ed10085747af0a36;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Thu May 15 12:35:07 2025 -0300;Rename h05.md to h04_02.md
+66fad429481bfc9c164c2bb4cbd8e66d6a5674df;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Thu May 15 12:34:39 2025 -0300;Rename h04.md to h04_01.md
+48b9dea5c7db6390ca4a6fd6cef5a893dc3a237c;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Thu May 15 12:10:58 2025 -0300;Add diagrama_classes.plantuml via upload
+d1d34292a2ce53410b7f050ae4ee9c41a48da4b2;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Thu May 15 11:19:08 2025 -0300;Correção da formatação do arquivo
+f7320ee3b638f3c87e3522450acd3e8737ca16a4;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Thu May 15 11:17:46 2025 -0300;Correção da formatação do arquivo
+b11c175012c0d412556a3f2b89f02c6cf690006f;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Thu May 15 11:05:09 2025 -0300;Adição das HUs referentes ao RF05
+1778fa064dd88e07e42da830c1e4aa21e2c13551;alinenunes21 <alinenunes21@hotmail.com>;Thu May 15 09:44:29 2025 -0300;Implementa RF03 – envio de exames e atualiza diagrama de classes
+fd2ee67f7fb53055d8194b8d16bd5948782ed87a;Stephany Milhomem <stephanymilhomem25@gmail.com>;Thu May 15 06:53:54 2025 -0300;Adicinando atributos a classe Usuario
+b1b1bf24e359103bd6b1207208153bfb5106e489;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed May 14 22:11:35 2025 -0300;criação do diagrama de classes
+5a4e390f3cddb2e75683a3fc51e428fd96058cef;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed May 14 22:11:21 2025 -0300;adição de cenários nas histórias de usuário
+a24f78c52e57302e79b55c51499cd74584f51c6b;Stephany Milhomem <stephanymilhomem25@gmail.com>;Wed May 14 19:26:15 2025 -0300;HUs do RF01
+4d63d7968d17880e18558997673e055aa154b9ec;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Tue May 13 20:55:49 2025 -0300;criação do diagrama de casos de uso
+5a30dfc74d8dac0e3371e6230c86969f5e0363e0;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Tue May 13 20:55:35 2025 -0300;criação das histórias de usuário
+8b0277ff27c2eb92e050b5439d72cfae678661bf;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed May 7 15:23:54 2025 -0300;Create as5_rs_grupo1.md
+6ee4dd0fcc84e8f9a0ec2f3c22f6cded6f3d9376;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed May 7 15:22:16 2025 -0300;Delete atividades_supervisionadas/as5_rs_grupo1.jpg
+33eb069eec46848cea6a17966faf2616a2fd1f53;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed May 7 15:21:34 2025 -0300;Add files via upload
+3e06754bb520ff57b2d8ef82ab06eefa585b0518;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed May 7 15:20:31 2025 -0300;Delete atividades_supervisionadas/as5_rs_grupo1.png
+a97af49b55997984742b846347b84a3be65291c0;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed May 7 15:17:14 2025 -0300;Add files via upload
+1d40453b63a8ca7f9a353be996c4ae663b524022;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed May 7 15:15:13 2025 -0300;Add files via upload
+b30bae27a937037db14b056405d8f568c5154b6e;Stephany Milhomem <110176560+StephanyMil@users.noreply.github.com>;Wed Apr 30 22:46:43 2025 +0000;Create definicao_trabalho_final_g1.md
+74e792ba414481f7a789cc376e403b6d104e9bb7;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sat Apr 26 15:28:56 2025 -0300;update repository
+df025a91a609181e7af55d5935f0df483d5cb839;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Apr 25 17:00:26 2025 -0300;update repository
+c2c74ce4a40be106d82849c69b6f147795acc8b3 Merge: 785f58a 59b413b;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Thu Apr 24 18:57:25 2025 -0300;Merge branch 'estudante'
+59b413bbc057ff871e03bf98509524446cda3e0c;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed Apr 23 17:57:22 2025 -0300;Add files via upload
+f645700504ced700dba246ec1ef7ca01091d5389;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed Apr 23 17:56:21 2025 -0300;Add files via upload
+6ac706c28b44bc4c3230ba5171706b4604f6d25b;Stephany Milhomem <110176560+StephanyMil@users.noreply.github.com>;Wed Apr 23 15:24:58 2025 +0000;Create ae_aula07stephanyMilhomem.md
+e17c282b088bbbc9b813595ac84e45e7bf17335f;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Wed Apr 23 11:49:05 2025 -0300;Rename ae_aula07<alineLima>.md to ae_aula07_alineLima.md
+113c4e233d5e24b560fea5dee40e44b6b33ce06b;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Wed Apr 23 09:51:37 2025 -0300;Rename ae_aula07_alineLima.md to ae_aula07<alineLima>.md
+191ec28ed9b0d787b79e822ada260e160fbc5269;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Wed Apr 23 09:45:12 2025 -0300;Update ae_aula07_alineLima.md
+4d43b9e95072ad70d5760e54c87f4633aff06435;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Wed Apr 23 09:44:28 2025 -0300;Update ae_aula07_alineLima.md
+bab88b492305811a51d3818f275aea929f36639c;Aline Lima <108772037+aaaaline@users.noreply.github.com>;Wed Apr 23 09:42:27 2025 -0300;Create ae_aula07_alineLima_.md
+785f58a076e49ecaf24e74d3baefcd19987ae2c0;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Apr 18 11:22:04 2025 -0300;update repository
+dab675c7db0a0c401fa9a84d19c9359a86125fbf;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Thu Apr 17 19:00:13 2025 -0300;update repository
+f4f34e0df308526ff947043615bcff9dc08e0db0;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Wed Apr 16 16:05:15 2025 -0300;Add files via upload
+7706602220b7967158e85c4acc3a9d9278494d3c;Stephany Milhomem <110176560+StephanyMil@users.noreply.github.com>;Fri Apr 11 00:41:34 2025 +0000;Add files via upload
+b4683663e5b96ce1bba03144edf45c351956404b;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Wed Apr 9 12:19:24 2025 -0300;Rename as2_rs_g1.md to as3_rs_g1.md
+4b3c493cdacb9e9d4be919e26564fa2033195bc2;Gabriel Milhomem Cunha <gabriell.mil@gmail.com>;Wed Apr 9 12:19:01 2025 -0300;Create as2_rs_g1.md
+9d3f0642e5d61b6b4eb90baee75b467ff41c88a0;Stephany Milhomem <110176560+StephanyMil@users.noreply.github.com>;Fri Mar 28 22:24:47 2025 +0000;Create ap-aula4-g1.md
+b393aa6c9711e44c7de0daf38805fd07e7f039fb;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Thu Mar 27 21:25:48 2025 -0300;Update da aula 4
+7e74f4c518c48d7b6b3b848ddce053b9c76ac745 Merge: 01c89cc bdd7dd3;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed Mar 26 15:47:01 2025 -0300;Merge branch 'main' of https://github.com/gilmarUFG/rs_es_20251_g1 into estudante
+01c89cc649c2efa2f6cd3092bd1d6b452ed10508;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Wed Mar 26 15:46:05 2025 -0300;Add files via upload
+bdd7dd3da7961f433de1e6345479f6ea121b5de4 Merge: eeca065 1c0edfa;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Mar 21 18:37:18 2025 -0300;Merge pull request #3 from gilmarUFG/estudante ap-aula3-g1.md
+1c0edfaf4e2f4f0d2ea1b4b401a26d3abb698a04;alinenunes21 <alinenunes21@hotmail.com>;Thu Mar 20 21:38:03 2025 -0300;ap-aula3-g1.md
+eeca065dc131e8c4ec639494624e76db4aea3b26 Merge: 5a19ebb 90e262d;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Mar 14 14:12:09 2025 -0300;Merge branch 'professor' into develop
+90e262d64ff0065beca9618c4e6ee5ea479db812;Ayumi Hamano <98706488+AyuHamano@users.noreply.github.com>;Thu Mar 13 21:40:56 2025 -0300;atv1: update
+5a19ebbb9ce353925880c0e8dceec2addf4f467e Merge: 947c804 fae38cc;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Feb 28 18:03:10 2025 -0300;Merge pull request #1 from gilmarUFG/main update develop
+fae38ccfdc21cfdddd637f1fe8be2db08e44566f;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Feb 28 17:09:19 2025 -0300;Update README.md file.
+d9aa009c408b4f1b18c6b0ee27dd894a354c7cff;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Feb 28 15:28:38 2025 -0300;Update README.md file
+947c804357606c9123542c839ddf09c2a6cd9e1b;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Feb 28 11:56:08 2025 -0300;Initial commit
